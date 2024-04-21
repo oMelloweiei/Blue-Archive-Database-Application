@@ -1,0 +1,48 @@
+name: my_project
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  backdrop: ^0.9.1
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  google_fonts: ^6.2.1
+  lottie: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/Blue_Archive/BA logo/logo design 1024.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/Blue_Archive/
+    - assets/Blue_Archive/components/
+    - assets/Blue_Archive/contents/
+    - assets/Blue_Archive/components/skill_icons/
+    - assets/Blue_Archive/components/equipment/
+    - assets/Blue_Archive/components/affinity_icons/
+    - assets/Blue_Archive/components/place_icons/
+    - assets/Blue_Archive/components/firearm_icons/
+    - assets/Blue_Archive/components/atk_def_icons/
+    - assets/Blue_Archive/components/class_icons/
+    - assets/Blue_Archive/components/role_icons/
+    - assets/Blue_Archive/components/school_icons/
+    - assets/Blue_Archive/characters/profile_images/
+    - assets/Blue_Archive/characters/artwork/
+    - assets/Blue_Archive/characters/weapons/
+    - assets/Blue_Archive/characters/memorial_lobby_icons/
+    - assets/Blue_Archive/characters/memorial_lobby/
+    - assets/Blue_Archive/characters/Halo/
+    - assets/Blue_Archive/background/
